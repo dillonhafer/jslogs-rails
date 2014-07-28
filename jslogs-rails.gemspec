@@ -10,10 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["dh@dillonhafer.com"]
   spec.summary       = %q{Custom log messages in JavaScript.}  
   spec.homepage      = ""
-  spec.license       = "Apache2"
+  spec.license       = "MIT"
 
-  spec.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
-  #spec.files         = `git ls-files -z`.split("\x0")  
+  spec.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]  
   spec.require_paths = ["lib"]
 
   spec.add_dependency "railties", ">= 3.1"

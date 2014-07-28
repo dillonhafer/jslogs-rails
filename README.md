@@ -6,19 +6,24 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'jslogs-rails'
+    gem 'jslogs-rails', :git => 'git://github.com/thealtair/jslogs-rails.git'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install jslogs-rails
-
 ## Usage
 
-TODO: Write usage instructions here
+Create custom-format JavaScript console messages.
+
+Add ```//= require jslogs``` to ```app/assets/javascripts/application.js```
+
+Then is a Javascript file:
+
+```js
+  var message = "Hello World!";
+  jslogs(message);
+```
 
 ## Contributing
 
