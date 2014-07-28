@@ -1,4 +1,4 @@
-function jslog(message) {
+function jslogs(message) {
   var new_text = "%c";
   var styles   = "";
   
